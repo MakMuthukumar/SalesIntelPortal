@@ -1,0 +1,933 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-01-18T05:47:34.784Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2997500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeExection.beforeExecutedClass(Scenario)"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "To validate SalesIntel application Launching application",
+        "description": "",
+        "id": "validate-application-login-page;to-validate-salesintel-application-launching-application",
+        "after": [
+          {
+            "result": {
+              "duration": 581400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeExection.afterExecutedClass(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11204428900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Launch the url",
+            "match": {
+              "location": "Steps.launch_the_url()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@First"
+          },
+          {
+            "name": "@Sanity"
+          },
+          {
+            "name": "@Test"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-01-18T05:47:46.140Z",
+        "before": [
+          {
+            "result": {
+              "duration": 544400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeExection.beforeExecutedClass(Scenario)"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "To validate SalesIntel application Login Screen Content",
+        "description": "",
+        "id": "validate-application-login-page;to-validate-salesintel-application-login-screen-content",
+        "after": [
+          {
+            "result": {
+              "duration": 293000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeExection.afterExecutedClass(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 111730100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Validate Login Page Title is displayed",
+            "match": {
+              "location": "Steps.I_Validate_Page_Title()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 30394900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Validate Email Field is displayed",
+            "match": {
+              "location": "Steps.I_Email_Field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 25926600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Validate Password Field is displayed",
+            "match": {
+              "location": "Steps.I_Validate_Password_Field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 27350200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Validate Remember Me Checkbox is displayed",
+            "match": {
+              "location": "Steps.I_Validate_Remember_Me()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 27158900,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Validate Forgot Password Link is displayed",
+            "match": {
+              "location": "Steps.I_Validate_Forgot_Password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 34899700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Validate FAQ Link is displayed",
+            "match": {
+              "location": "Steps.I_Validate_FAQ()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 27512300,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Validate Login Button is displayed",
+            "match": {
+              "location": "Steps.I_Validate_Login_Button()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@First"
+          },
+          {
+            "name": "@Sanity"
+          },
+          {
+            "name": "@Test"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-01-18T05:47:46.439Z",
+        "before": [
+          {
+            "result": {
+              "duration": 442800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeExection.beforeExecutedClass(Scenario)"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "To validate SalesIntel application Tapping only Login Button",
+        "description": "",
+        "id": "validate-application-login-page;to-validate-salesintel-application-tapping-only-login-button",
+        "after": [
+          {
+            "result": {
+              "duration": 438800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeExection.afterExecutedClass(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10062414100,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Click On Login Button",
+            "match": {
+              "location": "Steps.I_Click_Login_Button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 41732500,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Validate Error Text when Tried with Invalid Username and Invalid Password",
+            "match": {
+              "location": "Steps.I_Validate_InvalidUsername_InvalidPassword_Field()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 35861500,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Validate Error Text when Tried with Invalid Password and Invalid Username",
+            "match": {
+              "location": "Steps.I_Validate_InvalidPassword_InvalidUsername_Field()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@First"
+          },
+          {
+            "name": "@Sanity"
+          },
+          {
+            "name": "@Test"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-01-18T05:47:56.591Z",
+        "before": [
+          {
+            "result": {
+              "duration": 587300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeExection.beforeExecutedClass(Scenario)"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "To validate SalesIntel application Login with Invalid Username and Valid Password",
+        "description": "",
+        "id": "validate-application-login-page;to-validate-salesintel-application-login-with-invalid-username-and-valid-password",
+        "after": [
+          {
+            "result": {
+              "duration": 578900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeExection.afterExecutedClass(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 108826800,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Enter Invalid Username",
+            "match": {
+              "location": "Steps.i_enter_invalid_username()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 84474200,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Enter Valid Password",
+            "match": {
+              "location": "Steps.i_enter_the_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10042604900,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Click On Login Button",
+            "match": {
+              "location": "Steps.I_Click_Login_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 86473000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Validate Error Text when Tried with Invalid Username and Valid Password",
+            "match": {
+              "location": "Steps.I_Validate_InvalidUsername_validPassword_Field()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@First"
+          },
+          {
+            "name": "@Sanity"
+          },
+          {
+            "name": "@Test"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-01-18T05:48:06.930Z",
+        "before": [
+          {
+            "result": {
+              "duration": 721200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeExection.beforeExecutedClass(Scenario)"
+            }
+          }
+        ],
+        "line": 31,
+        "name": "To validate SalesIntel application Login with Valid Username and Invalid Password",
+        "description": "",
+        "id": "validate-application-login-page;to-validate-salesintel-application-login-with-valid-username-and-invalid-password",
+        "after": [
+          {
+            "result": {
+              "duration": 1182300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeExection.afterExecutedClass(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 60098100,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "Clear the Text in Username Field",
+            "match": {
+              "location": "Steps.i_Clear_username()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 34505400,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "Clear the Text in Password Field",
+            "match": {
+              "location": "Steps.i_clear_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2155277900,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "Enter Valid Username",
+            "match": {
+              "location": "Steps.i_enter_the_username()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 63935500,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "Enter Invalid Password",
+            "match": {
+              "location": "Steps.i_enter_invalid_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10045212600,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "Click On Login Button",
+            "match": {
+              "location": "Steps.I_Click_Login_Button()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@First"
+          },
+          {
+            "name": "@Sanity"
+          },
+          {
+            "name": "@Test"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-01-18T05:48:19.328Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1472300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeExection.beforeExecutedClass(Scenario)"
+            }
+          }
+        ],
+        "line": 39,
+        "name": "To validate SalesIntel application Login with Invalid Username and Invalid Password",
+        "description": "",
+        "id": "validate-application-login-page;to-validate-salesintel-application-login-with-invalid-username-and-invalid-password",
+        "after": [
+          {
+            "result": {
+              "duration": 754900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeExection.afterExecutedClass(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 71324500,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "Clear the Text in Username Field",
+            "match": {
+              "location": "Steps.i_Clear_username()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 28749600,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "Clear the Text in Password Field",
+            "match": {
+              "location": "Steps.i_clear_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 55649200,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "Enter Invalid Username",
+            "match": {
+              "location": "Steps.i_enter_invalid_username()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 67964400,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "Enter Invalid Password",
+            "match": {
+              "location": "Steps.i_enter_invalid_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10047082700,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "Click On Login Button",
+            "match": {
+              "location": "Steps.I_Click_Login_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 43505900,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "Validate Error Text when Tried with Invalid Username and Valid Password",
+            "match": {
+              "location": "Steps.I_Validate_InvalidUsername_validPassword_Field()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@First"
+          },
+          {
+            "name": "@Sanity"
+          },
+          {
+            "name": "@Test"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-01-18T05:48:29.670Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1591100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeExection.beforeExecutedClass(Scenario)"
+            }
+          }
+        ],
+        "line": 48,
+        "name": "To validate SalesIntel application Forget Password",
+        "description": "",
+        "id": "validate-application-login-page;to-validate-salesintel-application-forget-password",
+        "after": [
+          {
+            "result": {
+              "duration": 1092100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeExection.afterExecutedClass(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 81365800,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "Click on Forget Password",
+            "match": {
+              "location": "Steps.I_Click_Forgot_Password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5046665900,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "Verify Forget Email Address Field is displayed",
+            "match": {
+              "location": "Steps.i_verify_Forget_Email_Field()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5079964800,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "Enter Forget Email Address",
+            "match": {
+              "location": "Steps.i_enter_the_Forget_Email()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3076309700,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "Verify Reset Password Button is displayed",
+            "match": {
+              "location": "Steps.i_verify_Forget_Reset_Email_Field()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3118839800,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "Click On Reset Password Button",
+            "match": {
+              "location": "Steps.I_Click_Resert_Password_Button()"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@First"
+          },
+          {
+            "name": "@Sanity"
+          },
+          {
+            "name": "@Test"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-01-18T05:48:46.108Z",
+        "before": [
+          {
+            "result": {
+              "duration": 959300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeExection.beforeExecutedClass(Scenario)"
+            }
+          }
+        ],
+        "line": 56,
+        "name": "To validate SalesIntel application Remember Me",
+        "description": "",
+        "id": "validate-application-login-page;to-validate-salesintel-application-remember-me",
+        "after": [
+          {
+            "result": {
+              "duration": 216600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeExection.afterExecutedClass(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 75104400,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "Click on Remember Me",
+            "match": {
+              "location": "Steps.I_Click_Remember_Me()"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@First"
+          },
+          {
+            "name": "@Sanity"
+          },
+          {
+            "name": "@Test"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-01-18T05:48:46.199Z",
+        "before": [
+          {
+            "result": {
+              "duration": 308500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeExection.beforeExecutedClass(Scenario)"
+            }
+          }
+        ],
+        "line": 60,
+        "name": "To validate SalesIntel application Valid User Username and Valid Password",
+        "description": "",
+        "id": "validate-application-login-page;to-validate-salesintel-application-valid-user-username-and-valid-password",
+        "after": [
+          {
+            "result": {
+              "duration": 416800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeExection.afterExecutedClass(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 31149300,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "Click on Remember Me",
+            "match": {
+              "location": "Steps.I_Click_Remember_Me()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 37466400,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "Clear the Text in Username Field",
+            "match": {
+              "location": "Steps.i_Clear_username()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 48535400,
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "Clear the Text in Password Field",
+            "match": {
+              "location": "Steps.i_clear_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2115476600,
+              "status": "passed"
+            },
+            "line": 64,
+            "name": "Enter Valid Username",
+            "match": {
+              "location": "Steps.i_enter_the_username()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 58686600,
+              "status": "passed"
+            },
+            "line": 65,
+            "name": "Enter Valid Password",
+            "match": {
+              "location": "Steps.i_enter_the_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10047904400,
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "Click On Login Button",
+            "match": {
+              "location": "Steps.I_Click_Login_Button()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@First"
+          },
+          {
+            "name": "@Sanity"
+          },
+          {
+            "name": "@Test"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-01-18T05:48:58.549Z",
+        "before": [
+          {
+            "result": {
+              "duration": 646600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeExection.beforeExecutedClass(Scenario)"
+            }
+          }
+        ],
+        "line": 69,
+        "name": "To validate application Logout",
+        "description": "",
+        "id": "validate-application-login-page;to-validate-application-logout",
+        "after": [
+          {
+            "result": {
+              "duration": 179200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeExection.afterExecutedClass(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5191813300,
+              "status": "passed"
+            },
+            "line": 70,
+            "name": "Click On Setting Options",
+            "match": {
+              "location": "Steps.I_click_welcome_Logout()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3202037500,
+              "status": "passed"
+            },
+            "line": 71,
+            "name": "Click On Logout Options",
+            "match": {
+              "location": "Steps.I_click_Logout()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@First"
+          },
+          {
+            "name": "@Sanity"
+          },
+          {
+            "name": "@Test"
+          }
+        ]
+      }
+    ],
+    "name": "Validate application login Page",
+    "description": "",
+    "id": "validate-application-login-page",
+    "keyword": "Feature",
+    "uri": "file:TC_01_Login_Page_Validation.feature",
+    "tags": []
+  }
+]
